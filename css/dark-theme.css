@@ -9,7 +9,7 @@ body {
     font-family: 'Inter', sans-serif;
     line-height: 1.6;
     color: #e2e8f0;
-    background: #0f172a;
+    background: #0f172a url('../images/background.jpg') center center / cover no-repeat fixed;
     min-height: 100vh;
 }
 
@@ -90,16 +90,13 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.9) 0%, rgba(30, 41, 59, 0.8) 50%, rgba(51, 65, 85, 0.9) 100%);
 }
 
 .hero-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
-    align-items: center;
     max-width: 1200px;
     margin: 0 auto;
+    text-align: left;
 }
 
 .hero-text h1 {
@@ -170,53 +167,6 @@ body {
     color: white;
 }
 
-/* Hero Animation - Minimalist */
-.hero-visual {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.orbit-animation {
-    position: relative;
-    width: 250px;
-    height: 250px;
-    border: 2px solid rgba(99, 102, 241, 0.3);
-    border-radius: 50%;
-}
-
-.planet {
-    width: 40px;
-    height: 40px;
-    background: #6366f1;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0 0 20px rgba(99, 102, 241, 0.6);
-}
-
-.satellite {
-    width: 12px;
-    height: 12px;
-    background: white;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    animation: orbit 8s linear infinite;
-    transform-origin: 0 0;
-}
-
-@keyframes orbit {
-    from {
-        transform: translate(-50%, -50%) rotate(0deg) translateX(125px) rotate(0deg);
-    }
-    to {
-        transform: translate(-50%, -50%) rotate(360deg) translateX(125px) rotate(-360deg);
-    }
-}
 
 /* Sections */
 section {
@@ -245,32 +195,36 @@ section {
     margin-right: auto;
 }
 
-.stats-grid {
+.value-props {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
     margin-top: 3rem;
 }
 
-.stat-card {
+.value-card {
     text-align: center;
     padding: 2rem;
     background: rgba(99, 102, 241, 0.1);
     border-radius: 15px;
     border: 1px solid rgba(99, 102, 241, 0.2);
+    transition: transform 0.3s ease;
 }
 
-.stat-number {
-    font-size: 3rem;
-    font-weight: 700;
+.value-card:hover {
+    transform: translateY(-5px);
+}
+
+.value-card h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
     color: #6366f1;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
-.stat-label {
-    font-size: 1.125rem;
+.value-card p {
     color: #94a3b8;
-    font-weight: 500;
+    line-height: 1.6;
 }
 
 /* Services */
@@ -560,11 +514,6 @@ section {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .hero-content {
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-    
     .hero-text h1 {
         font-size: 2.5rem;
     }
@@ -590,15 +539,5 @@ section {
         flex-direction: column;
         gap: 2rem;
         text-align: center;
-    }
-    
-    .orbit-animation {
-        width: 150px;
-        height: 150px;
-    }
-    
-    .planet {
-        width: 25px;
-        height: 25px;
     }
 }
