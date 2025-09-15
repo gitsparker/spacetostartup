@@ -506,6 +506,19 @@ section {
     padding: 3rem 0 1rem;
 }
 
+/* Full Orbit Leadership links styling */
+.contact-item a,
+.footer-bottom a {
+    color: #7dd3fc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-item a:hover,
+.footer-bottom a:hover {
+    color: #38bdf8;
+}
+
 .footer-content {
     display: flex;
     justify-content: space-between;
