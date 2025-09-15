@@ -1,0 +1,83 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="1080" fill="#0f172a"/>
+  
+  <!-- Large bright stars -->
+  <circle cx="200" cy="150" r="2" fill="#ffffff" opacity="0.9"/>
+  <circle cx="450" cy="300" r="1.5" fill="#e2e8f0" opacity="0.8"/>
+  <circle cx="750" cy="120" r="2" fill="#ffffff" opacity="0.9"/>
+  <circle cx="1100" cy="280" r="1.5" fill="#e2e8f0" opacity="0.8"/>
+  <circle cx="1400" cy="180" r="2" fill="#ffffff" opacity="0.9"/>
+  <circle cx="1650" cy="320" r="1.5" fill="#e2e8f0" opacity="0.8"/>
+  
+  <!-- Medium stars -->
+  <circle cx="120" cy="400" r="1" fill="#cbd5e1" opacity="0.7"/>
+  <circle cx="380" cy="500" r="1" fill="#cbd5e1" opacity="0.6"/>
+  <circle cx="620" cy="450" r="1" fill="#cbd5e1" opacity="0.7"/>
+  <circle cx="890" cy="520" r="1" fill="#cbd5e1" opacity="0.6"/>
+  <circle cx="1180" cy="480" r="1" fill="#cbd5e1" opacity="0.7"/>
+  <circle cx="1520" cy="520" r="1" fill="#cbd5e1" opacity="0.6"/>
+  <circle cx="1750" cy="450" r="1" fill="#cbd5e1" opacity="0.7"/>
+  
+  <!-- Small scattered stars -->
+  <circle cx="80" cy="80" r="0.5" fill="#94a3b8" opacity="0.5"/>
+  <circle cx="150" cy="250" r="0.5" fill="#94a3b8" opacity="0.4"/>
+  <circle cx="300" cy="180" r="0.5" fill="#94a3b8" opacity="0.5"/>
+  <circle cx="480" cy="120" r="0.5" fill="#94a3b8" opacity="0.4"/>
+  <circle cx="550" cy="380" r="0.5" fill="#94a3b8" opacity="0.5"/>
+  <circle cx="680" cy="280" r="0.5" fill="#94a3b8" opacity="0.4"/>
+  <circle cx="820" cy="200" r="0.5" fill="#94a3b8" opacity="0.5"/>
+  <circle cx="950" cy="350" r="0.5" fill="#94a3b8" opacity="0.4"/>
+  <circle cx="1080" cy="150" r="0.5" fill="#94a3b8" opacity="0.5"/>
+  <circle cx="1250" cy="380" r="0.5" fill="#94a3b8" opacity="0.4"/>
+  <circle cx="1380" cy="320" r="0.5" fill="#94a3b8" opacity="0.5"/>
+  <circle cx="1550" cy="250" r="0.5" fill="#94a3b8" opacity="0.4"/>
+  <circle cx="1680" cy="180" r="0.5" fill="#94a3b8" opacity="0.5"/>
+  <circle cx="1820" cy="380" r="0.5" fill="#94a3b8" opacity="0.4"/>
+  
+  <!-- Bottom half stars -->
+  <circle cx="180" cy="650" r="1.5" fill="#e2e8f0" opacity="0.8"/>
+  <circle cx="420" cy="780" r="2" fill="#ffffff" opacity="0.9"/>
+  <circle cx="680" cy="720" r="1" fill="#cbd5e1" opacity="0.7"/>
+  <circle cx="920" cy="850" r="1.5" fill="#e2e8f0" opacity="0.8"/>
+  <circle cx="1200" cy="720" r="2" fill="#ffffff" opacity="0.9"/>
+  <circle cx="1480" cy="800" r="1" fill="#cbd5e1" opacity="0.7"/>
+  <circle cx="1720" cy="680" r="1.5" fill="#e2e8f0" opacity="0.8"/>
+  
+  <!-- More scattered small stars -->
+  <circle cx="100" cy="600" r="0.5" fill="#94a3b8" opacity="0.4"/>
+  <circle cx="250" cy="750" r="0.5" fill="#94a3b8" opacity="0.5"/>
+  <circle cx="350" cy="620" r="0.5" fill="#94a3b8" opacity="0.4"/>
+  <circle cx="520" cy="680" r="0.5" fill="#94a3b8" opacity="0.5"/>
+  <circle cx="650" cy="850" r="0.5" fill="#94a3b8" opacity="0.4"/>
+  <circle cx="780" cy="620" r="0.5" fill="#94a3b8" opacity="0.5"/>
+  <circle cx="850" cy="780" r="0.5" fill="#94a3b8" opacity="0.4"/>
+  <circle cx="1050" cy="650" r="0.5" fill="#94a3b8" opacity="0.5"/>
+  <circle cx="1150" cy="820" r="0.5" fill="#94a3b8" opacity="0.4"/>
+  <circle cx="1350" cy="680" r="0.5" fill="#94a3b8" opacity="0.5"/>
+  <circle cx="1550" cy="750" r="0.5" fill="#94a3b8" opacity="0.4"/>
+  <circle cx="1650" cy="620" r="0.5" fill="#94a3b8" opacity="0.5"/>
+  <circle cx="1800" cy="720" r="0.5" fill="#94a3b8" opacity="0.4"/>
+  
+  <!-- Additional tiny stars for density -->
+  <circle cx="320" cy="420" r="0.3" fill="#64748b" opacity="0.3"/>
+  <circle cx="580" cy="580" r="0.3" fill="#64748b" opacity="0.3"/>
+  <circle cx="720" cy="380" r="0.3" fill="#64748b" opacity="0.3"/>
+  <circle cx="980" cy="420" r="0.3" fill="#64748b" opacity="0.3"/>
+  <circle cx="1280" cy="580" r="0.3" fill="#64748b" opacity="0.3"/>
+  <circle cx="1580" cy="420" r="0.3" fill="#64748b" opacity="0.3"/>
+  
+  <!-- Subtle nebula effect -->
+  <ellipse cx="960" cy="300" rx="200" ry="80" fill="url(#nebula)" opacity="0.1"/>
+  <ellipse cx="1400" cy="600" rx="150" ry="60" fill="url(#nebula2)" opacity="0.08"/>
+  
+  <defs>
+    <radialGradient id="nebula" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:0" />
+    </radialGradient>
+    <radialGradient id="nebula2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+</svg>
